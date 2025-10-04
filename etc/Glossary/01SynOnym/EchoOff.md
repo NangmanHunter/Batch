@@ -1,0 +1,10 @@
+- EchoOff
+- @echo off
+- `@echo off`
+- 목적: 배치 파일 실행 시 명령어 자체를 화면에 표시하지 않음
+- 기본적으로 배치 파일은 명령어를 콘솔에 그대로 출력함 → @echo off로 숨김
+- @ → 해당 줄 자체도 안 보이게
+- echo off  + echo Hello▶️echo off + Hello
+- @echo off + echo Hello▶️Hello
+- `echo off`  + echo Hello▶️echo off + Hello
+- `@echo off` + echo Hello▶️Hello
